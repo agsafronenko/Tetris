@@ -6,6 +6,8 @@ A modern implementation of the classic Tetris game built with React and TypeScri
 
 [Try the game online on Vercel](https://tetris-three-gamma.vercel.app/)
 
+**Note:** The scoreboard may take up to 30 seconds to load as the backend may need a moment to initialize. You can still enjoy playing the game in the meantime.
+
 ![Screenshot](frontend/public/screenshot.png)
 
 ## Features

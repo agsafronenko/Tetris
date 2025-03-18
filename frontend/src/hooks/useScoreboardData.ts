@@ -14,7 +14,6 @@ export const useScoreboardData = (currentScore: number, currentLevel: number, ga
   const [playerName, setPlayerName] = useState<string>("");
   const [playerRank, setPlayerRank] = useState<number | null>(null);
   const [isEditingName, setIsEditingName] = useState<boolean>(false);
-  const [newName, setNewName] = useState<string>("");
   const [playerId, setPlayerId] = useState<string | null>(null);
   const [showTooltip, setShowTooltip] = useState<boolean>(false);
   const [isRankingUp, setIsRankingUp] = useState<boolean>(false);
@@ -136,7 +135,6 @@ export const useScoreboardData = (currentScore: number, currentLevel: number, ga
   // Handler for name editing
   const handleEditName = (score: ScoreRecord) => {
     setIsEditingName(true);
-    setNewName(score.name);
   };
 
   // Handler for name saving
@@ -168,7 +166,6 @@ export const useScoreboardData = (currentScore: number, currentLevel: number, ga
     playerName,
     playerRank,
     isEditingName,
-    newName,
     playerId,
     showTooltip,
     isRankingUp,

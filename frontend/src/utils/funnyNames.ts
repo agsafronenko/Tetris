@@ -1,3 +1,5 @@
+// A utility function that randomly selects a Tetris-themed username from a predefined list of names.
+
 const funnyNames = [
   "BlockWizard",
   "TetrominoKing",

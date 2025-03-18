@@ -1,15 +1,19 @@
 // TetrisApp.tsx - Main component for Tetris game UI and logic
 
 import React, { useEffect } from "react";
+
 import ScoreAndLevel from "./components/InfoSection/ScoreAndLevel";
 import NextTetrominoes from "./components/InfoSection/NextTetrominoes";
 import GameControls from "./components/InfoSection/GameControls";
 import BoardContainer from "./components/BoardContainer/BoardContainer";
 import Scoreboard from "./components/Scoreboard/Scoreboard";
 import GameBoard from "./components/BoardContainer/GameBoard";
-import { TIMER } from "./constants/gameConstants";
+
 import { useGameLogic } from "./hooks/useGameLogic";
 import { useAudioSettings } from "./hooks/useAudioSettings";
+
+import { TIMER } from "./constants/gameConstants";
+
 import "./styles/layout.css";
 
 const TetrisApp: React.FC = () => {

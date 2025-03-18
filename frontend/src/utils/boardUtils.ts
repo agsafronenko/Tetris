@@ -1,4 +1,5 @@
 // Utility functions for Tetris board management and validation
+
 import { Board, Tetromino } from "../components/InfoSection/types";
 import { BOARD_HEIGHT, BOARD_WIDTH } from "../constants/gameConstants";
 

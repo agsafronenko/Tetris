@@ -1,5 +1,7 @@
-import React from "react";
+// A table row component displaying the current player's rank, name, score, and level.
+
 import { PlayerStatsProps } from "./types";
+import React from "react";
 import "./PlayerStats.css";
 
 const PlayerStats: React.FC<PlayerStatsProps> = ({ playerRank, playerName, currentScore, currentLevel }) => {

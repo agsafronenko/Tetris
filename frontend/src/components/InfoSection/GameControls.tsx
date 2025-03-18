@@ -1,7 +1,8 @@
 // Component for Tetris game controls and audio settings
+
+import { GameControlsProps } from "./types";
 import React from "react";
 import "./GameControls.css";
-import { GameControlsProps } from "./types";
 
 const GameControls: React.FC<GameControlsProps> = ({ gameStarted, isPaused, isMuted, soundLevel, onTogglePause, onToggleMute, onStartNewGame, onSoundLevelChange }) => {
   return (

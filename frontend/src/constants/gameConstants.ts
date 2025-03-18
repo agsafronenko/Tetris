@@ -1,4 +1,5 @@
 // gameConstants.ts - Core constants for Tetris game mechanics and tetrominoes
+
 import { TetrominoShapes } from "../components/InfoSection/types";
 
 export const INITIAL_SPEED = 500; // Initial drop speed (ms)

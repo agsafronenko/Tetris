@@ -1,5 +1,7 @@
-import React, { useState, useEffect, useRef } from "react";
+// A controlled input component for editing a name with auto-focus, save, and cancel functionality.
+
 import { NameEditorProps } from "./types";
+import React, { useState, useEffect, useRef } from "react";
 import "./NameEditor.css";
 
 const NameEditor: React.FC<NameEditorProps> = ({ initialName, onSave, onCancel }) => {

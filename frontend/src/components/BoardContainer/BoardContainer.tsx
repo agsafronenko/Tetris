@@ -1,6 +1,7 @@
 // Component to render Tetris board and game state overlays
-import React from "react";
+
 import { BoardContainerProps } from "./types";
+import React from "react";
 import "./BoardContainer.css";
 
 const BoardContainer: React.FC<BoardContainerProps> = ({ gameOver, gameStarted, isPaused, score, startNewGame, renderBoard }) => {

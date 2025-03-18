@@ -1,7 +1,7 @@
 // Utils for managing Tetris audio playback and settings
 
-import { useRef, useEffect } from "react";
 import { AudioRefs } from "./types";
+import { useRef, useEffect } from "react";
 
 // Audio file paths
 const AUDIO_PATHS = {

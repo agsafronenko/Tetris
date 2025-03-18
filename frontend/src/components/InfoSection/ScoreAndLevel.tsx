@@ -1,7 +1,8 @@
 // Component to display Tetris score, level, and timer
+
+import { ScoreAndLevelProps } from "./types";
 import React from "react";
 import "./ScoreAndLevel.css";
-import { ScoreAndLevelProps } from "./types";
 
 const ScoreAndLevel: React.FC<ScoreAndLevelProps> = ({ score, level, timeLeft, TIMER }) => {
   return (

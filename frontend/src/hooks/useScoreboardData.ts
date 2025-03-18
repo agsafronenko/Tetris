@@ -1,6 +1,8 @@
+// A custom React hook that manages the scoreboard state, including fetching and updating scores, handling player ranking, and allowing name edits.
+
+import { ScoreRecord } from "../components/Scoreboard/types";
 import { useState, useEffect, useRef } from "react";
 import axios from "axios";
-import { ScoreRecord } from "../components/Scoreboard/types";
 import { getRandomName } from "../utils/funnyNames";
 
 // Configure base URL

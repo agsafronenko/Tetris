@@ -1,5 +1,7 @@
-import React from "react";
+// A dynamic leaderboard table displaying player rankings, scores, and levels, with name-editing functionality for the current player.
+
 import { ScoreTableProps } from "./types";
+import React from "react";
 import NameEditor from "./NameEditor";
 import PlayerStats from "./PlayerStats";
 import "./ScoreTable.css";

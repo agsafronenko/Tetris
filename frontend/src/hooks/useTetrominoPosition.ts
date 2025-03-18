@@ -1,6 +1,7 @@
 // Custom hook for managing tetromino positioning and ghost piece logic
-import { useCallback } from "react";
+
 import { Board, Tetromino, Position } from "../components/InfoSection/types";
+import { useCallback } from "react";
 import { isValidMove } from "../utils/boardUtils";
 
 export const useTetrominoPosition = (board: Board, currentTetromino: Tetromino) => {

@@ -1,6 +1,7 @@
 // Component to display upcoming Tetris tetrominoes
-import React from "react";
+
 import { NextTetrominoesProps } from "./types";
+import React from "react";
 import "./NextTetrominoes.css";
 
 const NextTetrominoes: React.FC<NextTetrominoesProps> = ({ tetrominoes }) => {

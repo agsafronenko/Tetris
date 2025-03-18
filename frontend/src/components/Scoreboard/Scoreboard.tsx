@@ -1,7 +1,9 @@
+// A scoreboard component displaying the top 15 players, the current player's rank, and name-editing functionality.
+
+import { ScoreboardProps } from "./types";
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTrophy } from "@fortawesome/free-solid-svg-icons";
-import { ScoreboardProps } from "./types";
 import ScoreTable from "./ScoreTable";
 import { useScoreboardData } from "../../hooks/useScoreboardData";
 import "./Scoreboard.css";

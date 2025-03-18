@@ -1,6 +1,7 @@
 // Component to render the Tetris game board with tetromino and ghost visuals
-import React from "react";
+
 import { GameBoardProps } from "./types";
+import React from "react";
 import { useTetrominoPosition } from "../../hooks/useTetrominoPosition";
 import "./GameBoard.css";
 

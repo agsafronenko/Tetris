@@ -1,6 +1,7 @@
 // Custom hook for Tetris game logic, state management, and controls
-import { useState, useRef, useCallback, useEffect } from "react";
+
 import { Board, Tetromino } from "../components/InfoSection/types";
+import { useState, useRef, useCallback, useEffect } from "react";
 import { createEmptyBoard, mergeTetromino, isValidMove } from "../utils/boardUtils";
 import { randomTetromino, rotateTetromino } from "../utils/tetrominoUtils";
 import { INITIAL_SPEED, TIMER, BOARD_WIDTH } from "../constants/gameConstants";

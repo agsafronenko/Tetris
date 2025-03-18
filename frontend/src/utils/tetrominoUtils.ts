@@ -1,7 +1,8 @@
 // Utility functions for Tetris tetromino generation and rotation
+
 import { Tetromino, TetrominoType, Board } from "../components/InfoSection/types";
-import { TETROMINO_SHAPES, BOARD_WIDTH } from "../constants/gameConstants";
 import { isValidMove } from "./boardUtils";
+import { TETROMINO_SHAPES, BOARD_WIDTH } from "../constants/gameConstants";
 
 // Generate a random tetromino with centered position
 export const randomTetromino = (): Tetromino => {

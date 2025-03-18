@@ -4,7 +4,9 @@ A modern implementation of the classic Tetris game built with React and TypeScri
 
 # Play Online
 
-Try the game online: React Tetris on Vercel
+[Try the game online on Vercel](https://tetris-three-gamma.vercel.app/)
+
+![Screenshot](frontend/public/screenshot.png)
 
 ## Features
 
@@ -18,7 +20,8 @@ Try the game online: React Tetris on Vercel
 - Game pause functionality
 - Sound effects with volume control
 - Theme music that speeds up with levels
-- **Online leaderboard system** with persistent scores stored in MongoDB
+- **Online leaderboard system** with persistent scores stored in MongoDB,
+- Backend managing MongoDB database with live scoreboard, deployed on Render.
 
 ## Controls
 
@@ -47,6 +50,13 @@ Try the game online: React Tetris on Vercel
 - Visual indicators for player rank changes
 - Special highlighting for top 3 scores (gold, silver, bronze)
 - Live updates
+
+## How Points are Awarded
+Points are awarded when you complete lines during gameplay. The scoring follows this logic:
+- Completed 1 line: 40 points * current level
+- Completed 2 lines: 100 points * current level
+- Completed 3 lines: 300 points * current level
+- Completed 4 lines (Tetris): 1200 points * current level
 
 ## Technical Implementation
 
